@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main()
+{
+	float inch, cm;
+	printf("请输入长度值");
+	scanf_s("%f", &inch);                                      /*卧槽为了安全强制使用scanf_s,好蛋疼*/
+	cm = 2.54f*inch;
+	printf("%.3f寸=%.3f厘米\n", inch, cm);                     /*%.3f为了三位小数*/
+	system("pause");
+	return 0;
+
+}
