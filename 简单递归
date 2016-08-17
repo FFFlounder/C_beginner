@@ -12,7 +12,7 @@ int main()
 	return 0;
 }
 
-int fac(int n)
+int fac(int n)        //应该定义成float型的，int数据最大值太小
 {
 	int f;
 	if (n<0)
